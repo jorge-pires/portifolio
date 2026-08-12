@@ -28,7 +28,7 @@ const principles = [
   {
     icon: Bot,
     title: "AI-first com revisão",
-    text: "Uso Cursor e agentes para acelerar tarefas, sem terceirizar decisões técnicas ou validação do código."
+    text: "Estou aprendendo Cursor e agentes para acelerar tarefas, sem terceirizar decisões técnicas ou validação do código."
   }
 ];
 
