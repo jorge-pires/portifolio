@@ -1,0 +1,16 @@
+---
+description: React, Next.js, TypeScript, Tailwind and accessibility conventions
+globs: "**/*.{ts,tsx,css}"
+alwaysApply: false
+---
+
+# Frontend conventions
+
+- Use semantic HTML before ARIA.
+- Interactive elements must be reachable by keyboard and have visible focus.
+- Use `aria-live` for meaningful asynchronous status updates when appropriate.
+- Respect `prefers-reduced-motion`.
+- Use mobile-first Tailwind classes; add breakpoint modifiers only for larger layouts.
+- Prefer composition over large prop-driven conditional components.
+- Keep data fetching and transport logic separated from visual primitives when remote data is introduced.
+- Every remote-data component must make loading, error, empty, and success behavior understandable.

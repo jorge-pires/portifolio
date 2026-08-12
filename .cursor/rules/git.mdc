@@ -1,0 +1,18 @@
+---
+description: Git and commit message standards
+alwaysApply: false
+---
+
+# Git workflow
+
+Use Conventional Commits in English.
+
+Examples:
+- `feat(portfolio): add project showcase`
+- `feat(contact): add professional contact links`
+- `test(a11y): add axe coverage for home page`
+- `fix(nav): close mobile menu with escape key`
+- `docs(readme): explain project architecture`
+- `chore(tooling): configure commitlint and husky`
+
+Keep commits focused. Do not mix unrelated refactors, features, and formatting in one commit.

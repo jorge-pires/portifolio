@@ -1,0 +1,14 @@
+---
+description: Core repository standards and AI workflow
+alwaysApply: true
+---
+
+# Core standards
+
+- Read `AGENTS.md` before proposing or generating code.
+- Generate final-form code, not tutorial refactoring stages.
+- Never claim a feature is implemented without checking the relevant files and tests.
+- Prefer the smallest coherent solution over adding dependencies.
+- Do not replace working architecture just to follow a trend.
+- Preserve the user's junior-friendly readability: explicit names, shallow abstractions, and short functions.
+- Before finishing a code task, consider lint, type safety, tests, accessibility, mobile behavior, async states, and error boundaries.

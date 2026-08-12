@@ -1,0 +1,14 @@
+---
+description: Automated test expectations
+globs: "**/*.{test,spec}.{ts,tsx}"
+alwaysApply: false
+---
+
+# Testing conventions
+
+- Test behavior visible to the user, not implementation details.
+- Prefer queries by role, label, and accessible name.
+- Mock network boundaries in unit tests, not internal components.
+- Use Vitest + Testing Library for component behavior.
+- Use Playwright for critical browser flows, responsive navigation, and axe accessibility checks.
+- A bug fix should include a regression test when practical.
